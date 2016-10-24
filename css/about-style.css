@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 17px;
+	line-height: 1cm; /*space between the text*/
+	background-image: url("lines-background.png");
+    background-attachment: fixed;
+}
+
+nav{
+	width: 15%;
+    position: fixed;
+    height: 100%;
+	text-align: right;
+	overflow: auto;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: 35%;
+	
+}
+
+li a {
+    color: black;	
+	padding: 5px;
+	text-decoration: none;
+}
+
+.currentPage{
+    background-color: black;
+    color: white;
+}
+
+#border{
+	border-top: solid grey 2px;
+}
+
+li p{
+	font-style: italic;
+	font-size: 20px;
+}
+	
+.text{
+	width: 100%;
+	padding-top: 8%;
+	text-align: center;
+	overflow: auto;
+}
+
+#uni{
+	padding-bottom: 20px;
+}
+
+.ques{
+	font-weight: bold;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	text-align:center;
+	bottom: 0;
+	font-family: arial;
+	font-size: 14px;
+	color: #666666;
+	padding: 3px;
+}
+

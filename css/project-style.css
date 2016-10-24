@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 17px;
+	line-height: 1cm; /*space between the text*/
+	background-image: url("lines-background.png");
+    background-attachment: fixed;
+}
+
+nav{
+	width: 15%;
+    position: fixed;
+    height: 100%;
+	text-align: right;
+	overflow: auto;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: 35%;
+	
+}
+
+li a {
+    color: black;	
+	padding: 5px;
+	text-decoration: none;
+}
+
+.currentPage{
+    background-color: black;
+    color: white;
+}
+
+#border{
+	border-top: solid grey 2px;
+}
+
+li p{
+	font-style: italic;
+	font-size: 20px;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	text-align:center;
+	bottom: 0;
+	font-family: arial;
+	font-size: 14px;
+	color: #666666;
+	padding: 3px;
+}
+
+.container {
+	width: 65%;
+	margin: auto;
+	padding-top: 2%;
+}
+
+.container .images {
+  margin: 3%;
+  display: inline-block;
+  border: 1px solid black;
+  
+}

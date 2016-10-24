@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 17px;
+	line-height: 1cm; /*space between the text*/
+	background-image: url("lines-background.png");
+    background-attachment: fixed;
+}
+
+nav{
+	width: 15%;
+    position: fixed;
+    height: 100%;
+	text-align: right;
+	overflow: auto;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: 35%;
+	
+}
+
+li a {
+    color: black;	
+	padding: 5px;
+	text-decoration: none;
+}
+
+.currentPage{
+    background-color: black;
+    color: white;
+}
+
+#border{
+	border-top: solid grey 2px;
+}
+
+li p{
+	font-style: italic;
+	font-size: 20px;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	text-align:center;
+	bottom: 0;
+	font-family: arial;
+	font-size: 14px;
+	color: #666666;
+	padding: 3px;
+}
+
+#container{
+	width: 50%;
+	margin: auto;
+	padding-top: 5%;
+}
+
+#container input[type='text']{
+	font-size: 14px;
+	font-family: arial;
+	padding: 6px;
+	border: #708090 solid 1px;
+	border-radius: 3px;
+	display: block;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+input[placeholder] {
+   color: #00BFFF; 
+}
+
+#container #wrap{
+	/*width: 40%;*/
+}
+
+#container #message{
+	padding-bottom: 200px;
+}
+
+#container .submit-btn{
+	text-align:center;
+	width: 25%;
+	padding: 3px;
+	background-color: white;
+	color: #00BFFF;
+	cursor: pointer;
+	font-size: 15px;
+	border-radius: 3px;
+	border: #708090 solid 1px;
+	display: block; 
+	margin: 0 auto;
+}
