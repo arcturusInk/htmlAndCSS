@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>PROJECTS</title>
 		<link rel="stylesheet" href="css/project-style.css" type="text/css"/>
+		<link href="//fonts.googleapis.com/css?family=Tangerine" rel="stylesheet"> 
 	</head>
 	<body>
 		<nav>
@@ -16,14 +17,19 @@
 		</nav>
 		
 		<div class="container">
-			<main>
-				<img src="images/chatbox.PNG" height="225px" width="225px" class="images">
-				<img src="images/clubhub.PNG" height="225px" width="225px" class="images">
-				<img src="images/nycmuseums.png" height="225px" width="225px" class="images">
-				<img src="images/website.PNG" height="225px" width="225px" class="images">				
-				<img src="images/Untitled.png" class="images">				
-				<img src="images/Untitled.png" class="images">
-				<div>
+			<main>				
+				<div class="image-container">
+				  <img src="images/chatbox2.jpg">
+				  <p>HTML/CSS | SPRING 2016</p>
+				</div>
+				<div class="image-container">
+				  <img src="images/clubhub-two.png" >
+				  <p>MySQL/PHP | SPRING 2014</p>
+				</div>
+				<div class="image-container">
+				  <img src="images/nycmuseumsTwo.png" >	
+				  <p>MySQL/PHP | SUMMBER 2016</p>
+				</div>	
 			</main>
 		</div>
 		

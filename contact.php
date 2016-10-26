@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>CONTACT</title>
 		<link rel="stylesheet" href="css/contact-style.css" type="text/css"/>
+		<link href="//fonts.googleapis.com/css?family=Tangerine" rel="stylesheet"> 
 	</head>
 	<body>
 		<nav>
@@ -18,7 +19,7 @@
 		<div id="container">
 			<form method="post">
 				<div id="wrap">
-					<input type="text" name="email" placeholder="Email"> 
+					<input type="text" name="email" placeholder="Email" id="margin"> 
 					<input type="text" name="name" placeholder="Name">
 				</div>
 				<input type="text" name="subject" placeholder="Subject">

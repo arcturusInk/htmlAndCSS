@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>ABOUT ME</title>
-		<link rel="stylesheet" href="css/about-style.css" type="text/css"/>
+		<link rel="stylesheet" href="css/about-style.css" type="text/css"/>	
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Julius+Sans+One|Josefin+Sans|Libre+Franklin|Tangerine" type="text/css"/>
 	</head>
 	<body>
 		<nav>
@@ -16,13 +17,14 @@
 		</nav>
 		
 			<div class="text">
-				<p id="uni">Hello, you have landed on Swati Barua's website</p>
+				<p id="uni">Hello, you have landed on Swati Barua's site</p>
+				<p>---</p>
 				<p class="ques">WHO AM I?</p>
-				<p>I am a computer science major and integrated digital media minor at NYU's Polytechnic School of Engineering </p>
+				<p class="ans">I am a computer science major and integrated digital media minor at NYU's Polytechnic School of Engineering </p>
 				<p class="ques">WHAT IS THIS WEBSITE FOR?</p>
-				<p>This is a place to showcase my personal projects and code</p>
+				<p class="ans">This is a place to showcase my personal projects and code</p>
 				<p class="ques">CAN I VIEW YOUR CODE?</p>
-				<p>Yes! All of my projects' code is availiable on my github account. Git handle: <a href="https://github.com/arcturusInk" target="_blank"> @arcturusInk</a> </p>
+				<p class="ans">Yes! All of my projects' code is availiable on my github account. Git handle: <a href="https://github.com/arcturusInk" target="_blank"> @arcturusInk</a> </p>
 			</div>
 		
 		<footer>
