@@ -9,7 +9,7 @@
 	<body>
 		<nav>
 			<ul>
-				<li><p>Swati Barua ... </p>
+				<li><p><a href="about.php">Swati Barua ...</a></p>
 				<li><a id="border" href="about.php" >ABOUT ME</a></li>
 				<li><a href="project.php" class="currentPage">PROJECTS</a></li>
 				<li><a href="contact.php">CONTACT</a></li>
@@ -34,7 +34,7 @@
 		</div>
 		
 		<footer>
-			Website &copy; Swati Barua &trade; <?php echo date("Y"); ?> | <i> sb4393_at_nyu_dot_edu <i>
+			Website &copy; Swati Barua &trade; <?php echo date("Y"); ?> | <i> sb4393_at_nyu_dot_edu </i>  | Git handle: <a href="https://github.com/arcturusInk" target="_blank"> @arcturusInk</a>
 		</footer>
 	</body>
 </html>
