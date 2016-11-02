@@ -1,0 +1,208 @@
+*{/*styles all the components in the page*/ 
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 17px;
+	line-height: 1cm; /*space between the text*/
+	background: #ffffff; /*white background*/
+}
+
+#container{ /*use # to indicate div*/
+	margin: 0px auto 50px auto;/*top and bottom: 50px. left and right: auto //auto sets in the middle*/
+	overflow: auto;/*scroll-bar will be added if texts overflows*/
+	width: 50%;/*how wide the container is. should take up 50% of the page. percentage also makes it responsive and flexible*/
+	min-height: 625px; /*sets the minimum height of all element in the container*/
+	border: #009999 solid;
+}
+
+header h1{
+	font-family: Papyrus,fantasy;
+	font-size: 28px;
+	text-align: center;
+	color: #660033;
+	padding: 15px;
+}
+/*MAY NEED TO LOOK INTO THIS SECTION AGAIN*/
+#shouts{
+	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	width: 90%; /*90% of its parent div, in this case the container*/
+	background: #f4f4f4;/*grey*/
+	height: 400px;/*within the container*/
+	margin: 0px auto 20px auto;
+	overflow: auto;
+	border: #33CCCC solid 1px;
+	text-indent: 15px;
+	text-align: right;
+}
+
+.shout{/*. to indicate style for class*/
+	list-style: none;
+	padding: 5px;
+	border-bottom: 1px #cccccc dotted;
+}
+
+.shout .date{
+	text-align: center;
+	color: #A9A9A9;
+}
+/*MAY NEED TO LOOK INTO THIS SECTION AGAIN*/
+
+#input{/*some basic styling for input section*/
+	width: 90%;
+	min-height: 120px;
+	margin: auto;
+	padding: 0;
+}
+
+#input input[type='text']{
+	font-size: 17px;
+	text-indent: 15px;
+	padding: 7px;
+	height: 25px; /*height of the text box*/
+	width: 98%;
+	border: #009999 solid 1px;
+	margin: 10px auto 20px auto;
+}
+
+#input .shout-btn{
+	text-align:center;
+	width: 50%;
+	padding: 5px;
+	margin: 10x auto 50px auto;
+	background-color: #B0C4DE;
+	color: white;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#input .shout-btn:hover {/*styling for the transition ie. after mouse moves over the button*/
+    background-color: white; 
+    color: #004d66;
+}
+
+#open-overlay{ /* styling for the overlay-btn/link*/
+	font-size: 26px;
+	font-weight: bold;
+	text-decoration:none;
+    border-radius:15px;
+	border: solid;
+	border-color: #33CCCC;
+	position: relative;
+	left: 83%;
+	display:inline-block;
+	padding:5px;
+	margin-top: 30px;
+	color:#009999;
+}
+
+#overlay{ /* styling for all of the elements in the overlay ie. the box*/
+	position:fixed;
+    top:50%;
+    left:50%;
+	height:320px;
+    width:400px;
+	margin-top:-200px; /* negative half the size of height */
+    margin-left:-200px;
+    background:white;
+	text-align: center;
+    border-radius:10px;
+    padding:10px;
+    z-index:1000;
+    display:none;
+}
+
+#mask{ /* styling for the mask. mask is the black transperant screen */
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    z-index:500;
+    width:100%;
+    height:100%;
+    display:none;
+}
+
+/* use :target to look for a link to the overlay then we find the mask */
+#overlay:target, #overlay:target + #mask{
+    display:block;
+    opacity:1;
+}
+
+.close{ /* styling for the close button */
+    display:block;
+    position:absolute;
+    top:-20px;
+    right:-20px;
+    background:red;
+    color:white;
+    height:40px;
+    width:40px;
+    line-height:40px;
+    font-size:35px;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+    border-radius:40px;
+}
+
+header h2{ /*the styling of the text: "settings" inside overlay */
+	color: #660033;
+	font-size: 28px;
+	padding: 15px;
+	border-bottom: solid;
+	border-color: gray;
+}
+
+#input p{
+	margin-top: 12%;/*for the line inside the overlay ie. box*/
+	font-family: arial;
+	font-size: 20px;
+	color:black;
+}
+
+#input input[type='number']{
+	height: 15px; /*height of the text box*/
+	padding: 3px;
+}
+
+#input .done-btn{/*styling for the normal state of the button inside settings*/
+	width: 50%;
+	padding: 5px;
+	margin: 10% auto;
+	background-color: #B0C4DE;
+	color: white;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	font-weight: bold;
+} 
+
+#input .done-btn:hover {/*styling for the after transition (after mouse moves over buttong)*/
+    background-color: white; 
+    color: #004d66;
+}
+
+#logout-link{/*styling for the logout link*/
+	position: relative;
+	left: 2%;
+	display:inline-block;
+	padding:5px;
+	margin-top: 30px;
+	color: #993300 ;
+	font-size: 26px;
+	font-weight: bold;
+	text-decoration:none;
+	border-radius:15px;
+	border: solid;
+	border-color: #996666;
+
+}
+
+@media only screen and (max-width:768px){/*makes the container responsive ie. adjusts itself when screen is smaller*/
+	#input input[type='text']{
+		width: 98%;
+	}
+}

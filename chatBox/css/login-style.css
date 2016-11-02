@@ -1,0 +1,87 @@
+*{/*styles all the components in the page*/ 
+	margin: 0;
+	padding: 0;
+}
+
+body{/*basic styling for the body*/
+	font-size: 17px;
+	line-height: 1cm; /*space between the text*/
+	background: #ffffff; /*white background*/
+}
+
+#logInCon{/*styling for the log-in portion of the page*/
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align:center;
+	margin-top:80px; 
+}
+
+#signUpCon{/*styling for the sign-up portion of the page*/
+	margin-left: 50%;
+	height: 100%;
+	text-align:center;
+	margin-top:40px; 
+	border-left: 5px solid #D3D3D3;
+}
+
+h3{/*styling for the log-in/sign-up headings*/
+	font-size: 40px;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+#logInHeader{/*styling for the */
+	margin-bottom:50px;
+	color: #66CCCC;
+}
+
+#signUpHeader{/*styling for the */
+	margin-bottom: 35px;
+	color: #66CC99;
+}
+
+.input input[type='text']{/*styling for the */
+	font-size: 17px;
+	text-indent: 5px;
+	padding: 5px;
+	height: 25px; /*height of the text box*/
+	width: 35%;
+	border: #009999 solid 1px;/*change color of the border*/
+	margin: 20px auto 20px auto;
+}
+
+.asti_input:before {/*styling for the */
+	content:" *"; 
+	color: red;
+	position: absolute; 
+	font-size: xx-large; 
+	padding: 0 5px 0 0;
+	margin: 25px 0px 0px -20px; 
+}
+
+.submit-btn{/*styling for the */
+	width: 17.5%;
+	padding: 8px;
+	margin-top: 20px;
+	background-color: #B0C4DE;
+	color: white;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.submit-btn:hover{
+	background-color: white; 
+    color: #004d66;
+}
+
+.asti span{
+	font-size: xx-large;
+}
+
+.asti{ 
+	color: red;
+	margin-top: 50px;
+}
